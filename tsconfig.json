@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["es2021", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "pretty": true,
+    "declaration": true,
+    "declarationMap": true,
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

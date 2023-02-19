@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro:wght@300;600&family=Ubuntu:wght@500&display=swap');
+
+h1, h2 {
+  font-weight: 600;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source sans pro', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-dark-e0);
+  color: var(--text-on-dark);
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--bg-dark-e0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  border: none;
+  background-color: var(--primary);
+  padding: .5rem;
+  border-radius: var(--border-radius);
+  color: var(--text-on-dark);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+textarea {
+  background-color: var(--bg-dark-e0);
+  border: none;
+  color: var(--text-on-dark);
+  padding: .7rem;
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  border-radius: var(--border-radius);
+}
+
+:root {
+  --primary: #9a1d1d;
+  --bg-dark-e0: #121212;
+  --bg-dark-e1: #242424;
+  --text-on-dark: #f1efe2;
+  --default-shadow: 1px 1px 5px #000000aa;
+  --border-radius: 3px;
+}

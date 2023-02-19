@@ -1,0 +1,19 @@
+.title-container {
+  display: grid;
+  grid-template-columns: 1fr .3fr;
+}
+
+.title-container div {
+  display: flex;
+  gap: 1rem;
+}
+
+.title-label {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .title-container {
+    grid-template-columns: 1fr;
+  }
+}
